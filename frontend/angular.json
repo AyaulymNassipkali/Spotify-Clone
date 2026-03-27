@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Spotify-Clone": {
+    "spotify-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Spotify-Clone:build:production"
+              "buildTarget": "spotify-frontend:build:production"
             },
             "development": {
-              "buildTarget": "Spotify-Clone:build:development"
+              "buildTarget": "spotify-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
