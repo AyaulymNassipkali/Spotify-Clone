@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<app-player></app-player>
+
+<!-- Add padding to prevent content being hidden behind player -->
+<div class="player-spacer" style="height: 80px;" *ngIf="true"></div>
